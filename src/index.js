@@ -35,8 +35,9 @@ var Lv01 = Marionette.LayoutView.extend({
       url: "/api/aaa",
       success: function(){
         self.yyy01.show(new Iv01());
+//					AppMain.content.currentView.getRegion("yyy01").show(new Iv01());
       },
-      timeout :1000000000
+      timeout: 1000000000
     });
 
   },

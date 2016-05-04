@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "backbone.marionette": "^2.4.5"
+    "backbone.marionette": "^2.4.5",
+    "sinon": "^1.17.4"
   },
   "devDependencies": {},
   "scripts": {
